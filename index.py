@@ -1,3 +1,5 @@
-import numpy as np
+# **keword
+def add(x, **y):
+    print(y.items())
 
-print(np.__version__)
+add(1, b=2, c=3)
