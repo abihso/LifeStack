@@ -1,7 +1,7 @@
 
-def func(a1,*others):
-  firsta = a1
-  print(others)
+def add(firstNumber,*numbers):
+  for i in numbers:
+    firstNumber +=i
+  print(firstNumber)
 
-
-func(1,23,4,5,6,7)
+add(1,2,3,4)

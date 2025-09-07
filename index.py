@@ -1,8 +1,27 @@
-lists = [1,2,3,4,5,6,7,8,9,10]
+items = [
+  {
+  "id":1,
+  "name":"solomon pwatiu",
+  "grade":"C+",
+  "performance":"better"
+  },
+  {
+  "id":2,
+  "name":"kab pwatiu",
+  "grade":"B+",
+  "performance":"good"
+  },
+  {
+  "id":3,
+  "name":"kelly baba",
+  "grade":"C+",
+  "performance":"better"
+  },
+  {
+  "id":4,
+  "name":"sheila evans",
+  "grade":"A+",
+  "performance":"better"
+  },
+]
 
-results = list(filter(lambda a : a % 2 == 2, lists))
-print(results)
-
-results2 = list(map(lambda a : a * 3,lists))
-
-print(results2)
